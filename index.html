@@ -1,0 +1,1416 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>IKnow | Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <!--     BootStrap Files Attached       Here BootStrap Files Attached Here -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- font awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <!--	Css Coding Here Css Coding Here  Css Coding Here  Css Coding Here Css Coding Here -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/CSS/file.css">
+<style>
+.active-class {
+  background-color: #ff451b;
+  width: 180px;
+  color: white !important;
+}
+.active-class i{
+  color: white;
+}
+.active-class h1{
+  color:white;
+  display: block;
+}
+.tab-pane{
+  transition:0.3s all ease-in-out
+}
+
+@media only screen and (max-device-width: 480px) {
+.active-class{
+  width: 100%;
+}
+}
+@media (max-width: 1040px){
+.active-class{
+  width: 100%;
+}
+}
+</style>
+</head>
+  <body class="body" >
+
+    <!-- Top Bar Start Here -->
+
+    <div class="main-bar  ">
+     <div class="main-bar-2">
+
+    <!-- Header & Navbar Start Here -->
+
+      <header class="">
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container px-6">
+            <div class="col-6">
+              <a class="navbar-brand " href="#">
+               <img src="assets/Images/light.png" alt="" class="img-fluid brand-logo">
+              </a>
+            </div>
+             <div class="col-6">
+              <div class="d-flex justify-content-end">
+               <div class="d-flex me-3 d-none d-lg-block">
+                <ul class="navbar-nav" >
+                 <li class="nav-item" >
+                  <a href="" class="nav-link"><i class="fab fa-facebook"></i></a>
+                 </li>
+                 <li class="nav-item" >
+                   <a href="" class="nav-link"><i class="fab fa-twitter"></i></a>
+                 </li>
+                 <li class="nav-item">
+                   <a href="" class="nav-link"><i class="fab fa-youtube"></i></a>
+                 </li>
+                 <li class="nav-item">
+                   <a href="" class="nav-link"><i class="fab fa-instagram"></i></a>
+                 </li>
+                </ul>
+               </div>
+              <div class="">
+               <button class="btn btn-first" type="submit">Download CV</button>
+              </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+    <!-- Header & Navbar End Here -->
+
+<section>
+    <div class="banner">
+    <div class="container px-6 px-sm-2">
+        <div class="row ">
+          <div class="col-lg-6 order-lg-2 ">
+              <div class="img-1 position-relative d-flex justify-content-center justify-content-lg-end mb-sm-4 ">
+                  <img src="assets/Images/1.jpg" alt=""class="img-fluid top-img" >
+                  <div class="img-2 position-absoulte d-none d-xl-block"></div>
+              </div>
+          </div>
+          <div class="col-lg-6 order-lg-1  ">
+            <div class="text ">
+                <h5>I'm</h5>
+                <h1>Jessica Parker</h1>
+                <h4>A passionate UI/UX Designer and Web Developer based In NYC, USA</h4>
+               <div class="play-video d-flex align-items-center mt-3">
+                <div class="circle">
+                <a href="" class="btn"><i class="fa-solid fa-bars"></i></a>
+                </div>
+               <a href="" class="text-decoration-none"> <h3 class="ps-3 ">Play Video</h3></a>
+               </div>
+            </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <div class="container px-6">
+    <div class="row ">
+        <div class="col-12  ">
+          <ul id="myList">
+            <li class="list-item" onclick="toggleSection(1)" >
+              <a href="#section1" id="btn-1" >
+              <i class="fa fa-file" aria-hidden="true"></i>
+              <h1>About Me</h1>
+            </a>
+          </li>
+            <li class="list-item" onclick="toggleSection(2)" >
+              <a href="#section2" id="btn-2" >
+              <i class="fa fa-address-book" aria-hidden="true"></i>
+                <h1>Resume</h1>
+              </a>
+            </li>
+            <li class="list-item" onclick="toggleSection(3)" >
+              <a href="#section3" id="btn-3" >
+              <i class="fas fa-briefcase"></i>
+               <h1>Portfolio</h1>
+               </a>
+            </li>
+            <li class="list-item" onclick="toggleSection(4)" >
+              <a href="#section4" id="btn-4" >
+              <i class="fa fa-wrench" aria-hidden="true"></i>
+              <h1>Service</h1>
+              </a>
+            </li>
+            <li class="list-item" onclick="toggleSection(5)" >
+              <a href="#section5" id="btn-5" >
+                <i class="fa fa-address-book" aria-hidden="true"></i>
+                <h1>Testimonial</h1>
+              </a>
+            </li>
+            <li class="list-item" onclick="toggleSection(6)" >
+              <a href="#section6" id="btn-6" >
+              <i class="fa-solid fa-blog"></i>
+              <h1>Blog</h1>
+              </a>
+            </li>
+            <li class="list-item" onclick="toggleSection(7)" >
+              <a href="#section7" id="btn-7" >
+              <i class="fa fa-address-book" aria-hidden="true"></i>
+              <h1>Contact</h1>
+              </a>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+    </div>
+    </div>
+    <!-- Top Bar End Here -->
+
+    <!-- Banner Start here -->
+
+<main>
+  <section  id="section1" class="section">
+   <div class="container px-6">
+    <div class="body-div my-bg mb-7">
+     <div class="row ">
+       <div class="col-lg-6 col-md-12 col-sm-12 d-none d-lg-block ">
+        <div class="bg-image d-flex position-relative ">
+         <div class="img-here position-relative ">
+           <img src="assets/Images/2.jpg" alt="" class="img-fluid img-cls">
+         </div>
+         <div class="img-section position-absolute ">
+         <ul class="list-unstyled details-ul">
+          <li>
+            <h3>Name</h3>
+            <span>Jessica Parker</span>
+          </li>
+          <li>
+            <h3>Birthday</h3>
+            <span>April 22, 1990</span>
+          </li>
+          <li>
+            <h3>Mail</h3>
+            <span>hello@jessica.com</span>
+          </li>
+          <li>
+            <h3>Phone</h3>
+            <span>+123 456 7890</span>
+          </li>
+          <li>
+            <h3>Address</h3>
+            <span>20, Bardeshi, Dhaka</span>
+          </li>
+          <li style="border: none;">
+            <h3>Nationality</h3>
+            <span>Bangladeshi</span>
+          </li>
+         </ul>  
+        </div>
+        </div>
+       </div>
+       <div class=" col-lg-6 col-md-12 col-sm-12">
+          <div class="about-details ">
+            <h3>About Me</h3>
+            <h1>World leading UI/UX designer</h1>
+            <h4>A passionate UI/UX Designer and Web Developer based In NYC, USA</h4>
+            <p>Hi! My name is Jessica Parker. I am UI/UX designer, and I'm very passionate and dedicated to my work. With 20 years experience as a professional graphic designer, I have acquired the skills and knowledge necessary to make your project a success.</p>
+            <button class="btn btn-first" type="submit">Download CV</button>
+          </div>
+       </div>
+        <div class="col-12 d-block d-lg-none">
+          <div class="img-section  ">
+            <ul class="list-unstyled details-ul">
+             <li>
+               <h3>Name</h3>
+               <span>Jessica Parker</span>
+             </li>
+             <li>
+               <h3>Birthday</h3>
+               <span>April 22, 1990</span>
+             </li>
+             <li>
+               <h3>Mail</h3>
+               <span>hello@jessica.com</span>
+             </li>
+             <li>
+               <h3>Phone</h3>
+               <span>+123 456 7890</span>
+             </li>
+             <li>
+               <h3>Address</h3>
+               <span>20, Bardeshi, Dhaka</span>
+             </li>
+             <li>
+               <h3>Nationality</h3>
+               <span>Bangladeshi</span>
+             </li>
+            </ul>  
+          </div>
+        </div>
+     </div>
+    </div>
+   </div>
+  </section>
+    <!-- Banner End here -->
+
+    <!-- Resume Section Start Here -->
+
+<section  id="section2" class="section">
+  <div class="container px-6">
+   <div class="resume-body my-bg mb-7" >
+    <div class="row">
+     <div class="col-lg-6 ">
+      <div class="resume-details">
+       <h3>Resume</h3>
+       <h1>Combination of Skill & Experience</h1>
+      </div>
+     </div>
+      <div class="col-md-6 ">
+      </div>
+    </div>
+    <div class="resume-detials-2">
+      <div class="row">
+        <div class="col-lg-6"> 
+          <div class="resume-title d-flex d-inline-block align-items-center ">
+            <div class="resume-circle">
+              <div class="resume-circle-2"></div>
+            </div>
+            <h3>Education</h3>
+          </div>
+          <div class="col-12">
+            <div class="education-detials">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="jobs mb-2  ">
+                    <h3>Cognitive Sciences</h3>
+                    <span>University of Maine</span>
+                  </div>
+                </div>
+                <div class="col-md-6 ">
+                  <div class="year mb-2 d-flex justify-content-md-end ">
+                    <span>2018 - 2020</span>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <p class="mt-3 pe-md-4">The goal of cognitive science is to understand the principles of intelligence with the hope that this will lead to better comprehension.</p>
+                </div>
+              </div>
+            </div>
+            <div class="education-detials">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="jobs mb-2  ">
+                    <h3>Civil Engineering</h3>
+                    <span>University of Texas</span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="year mb-2 d-flex justify-content-md-end  ">
+                    <span>2016 - 2017</span>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <p class="mt-3 pe-md-4">Civil engineering is arguably the oldest engineering discipline. It deals with the built environment and can be dated to the first time someone placed a roof</p>
+                </div>
+              </div>
+            </div>
+            <div class="education-detials">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="jobs mb-2  ">
+                    <h3>Bachelor of Science</h3>
+                    <span>Univercity of Dhaka</span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="year mb-2 d-flex justify-content-md-end  ">
+                    <span>2012 - 2015</span>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <p class="mt-3 pe-md-4">Civil engineering is arguably the oldest engineering discipline. It deals with the built environment and can be dated to the first time someone placed a roof</p>
+                </div>
+              </div>
+            </div>
+            <div class="resume-title d-flex d-inline-block align-items-center">
+              <div class="resume-circle">
+                <div class="resume-circle-2"></div>
+              </div>
+              <h3>Experience</h3>
+            </div>
+            <div class="col-12">
+              <div class="education-detials">
+                <div class="row">
+                  <div class="col-md-6 ">
+                    <div class="jobs mb-2   ">
+                      <h3>UI/UX Designer</h3>
+                      <span>Envato Market</span>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="year mb-2 d-flex justify-content-md-end ">
+                      <span>2018 - running</span>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <p class="mt-3 pe-md-4">Web Developers are build a website’s core structure using coding languages, while designers are more visually creative and user-focused.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="education-detials">
+                <div class="row">
+                  <div class="col-md-6 ">
+                    <div class="jobs mb-2   ">
+                      <h3>Creative Designer</h3>
+                      <span>Creative Designer</span>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="year mb-2  d-flex justify-content-md-end ">
+                      <span>2015 - 2017</span>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <p class="mt-3 pe-md-4">Web Developers are build a website’s core structure using coding languages, while designers are more visually creative and user-focused.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 ps-lg-5">
+        <div class="resume-title d-flex d-inline-block align-items-center ">
+          <div class="resume-circle">
+            <div class="resume-circle-2"></div>
+          </div>
+          <h3>Personal Skills</h3>
+        </div>
+        <div class="col-12 bottom-margin">
+          <div class="row progress-barr-1">
+            <div class="col-8 ">
+                <p class="progress-barr-p">Time Management</p>
+            </div>
+            <div class="col-4 d-flex align-items-end justify-content-center">
+              <span>90%</span>
+            </div>
+          </div>
+          <div class="progress-here-1 pt-1">
+          </div>
+          <div class="progress-here-1-part-2 "></div>
+        </div>
+        <div class="col-12 bottom-margin">
+          <div class="row progress-barr-2">
+            <div class="col-8 ">
+                <p class="progress-barr-p">Effeciency</p>
+            </div>
+            <div class="col-4 d-flex align-items-end justify-content-center">
+              <span>70%</span>
+            </div>
+          </div>
+          <div class="progress-here-2 pt-1">
+          </div>
+          <div class="progress-here-2-part-2 "></div>
+        </div>
+        <div class="col-12 bottom-margin">
+          <div class="row progress-barr-3">
+            <div class="col-8 ">
+                <p class="progress-barr-p">Intigrity</p>
+            </div>
+            <div class="col-4 d-flex align-items-end justify-content-center">
+              <span>80%</span>
+            </div>
+          </div>
+          <div class="progress-here-3 pt-1">
+          </div>
+          <div class="progress-here-3-part-2 "></div>
+        </div>
+        <div class="resume-title d-flex d-inline-block align-items-center softwar-bar ">
+          <div class="resume-circle">
+            <div class="resume-circle-2"></div>
+          </div>
+          <h3>Software Skills</h3>
+        </div>
+        <div class="row pt-3">
+          <div class="col-md-6 mb-6 ">
+            <div class="d-flex flex-column">            
+            <div class="pro-bar">
+              <div class="progress-here">
+               <span class="title timer" data-from="0" data-to="80" data-speed="1800">85%</span>
+               <div class="overlay"></div>
+               <div class="left"></div>
+               <div class="right"></div>
+              </div>
+              </div>
+              <div class="pro-bar-text d-flex justify-content-lg-start justify-content-center">
+                <h2>Ms Office</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-6">
+            <div class="d-flex flex-column">
+            <div class="pro-bar">
+              <div class="progress-here">
+                <span class="title timer" data-from="0" data-to="80" data-speed="1800">75%</span>
+                <div class="overlay"></div>
+                <div class="left"></div>
+                <div class="right"></div>
+              </div>
+            </div>
+              <div class="pro-bar-text d-flex justify-content-lg-start justify-content-center">
+                <h2>Photoshop</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-6 ">
+            <div class="d-flex flex-column">
+              <div class="pro-bar">
+                <div class="progress-here">
+                 <span class="title timer" data-from="0" data-to="80" data-speed="1800">90%</span>
+                 <div class="overlay"></div>
+                 <div class="left"></div>
+                 <div class="right"></div>
+                </div>
+                </div>
+                <div class="pro-bar-text d-flex justify-content-lg-start justify-content-center">
+                  <h2>Illustrator</h2>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-6">
+            <div class="d-flex flex-column">
+            <div class="pro-bar">
+              <div class="progress-here">
+                <span class="title timer" data-from="0" data-to="80" data-speed="1800">65%</span>
+                <div class="overlay"></div>
+                <div class="left"></div>
+                <div class="right"></div>
+              </div>
+              </div>
+              <div class="pro-bar-text d-flex justify-content-lg-start justify-content-center">
+                <h2>Figma</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   </div>
+  </div>
+</section>
+    <!-- Resume Section End Here -->
+
+    <!-- Portfolio Section Start Here -->
+
+<section  id="section3" class="section">
+ <div class="container px-6 ">
+  <div class="resume-body my-bg mb-7">
+   <div class="row ">
+    <div class="col-lg-6">
+      <div class="resume-details">
+        <h3>Resume</h3>
+        <h1>My works that I did for clients</h1>
+      </div>
+    </div>
+      <div class="col-lg-6">
+      </div>
+   </div>
+   <div id="exTab1" class="container">	
+    <ul class="nav nav-pills portfolio-ul  d-flex justify-content-lg-center">
+                <li class="active tabs-li" >
+            <a href="#1a" data-toggle="tab">All</a>
+                </li>
+                <li class="tabs-li"><a href="#2a" data-toggle="tab">Vimeo</a>
+                </li>
+                <li class="tabs-li"><a href="#3a" data-toggle="tab">Youtube</a>
+                </li>
+              <li class="tabs-li"><a href="#4a" data-toggle="tab">Soundcloud</a>
+                </li>
+                <li class="tabs-li"><a href="#5a" data-toggle="tab">Detail</a>
+                </li>
+            </ul>
+                <div class="tab-content ">
+                  <div class="tab-pane active" id="1a">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                          <div class="over-lay">
+                            <div class="content">
+                              <a href="https://vimeo.com/337293658" target="_blank">
+                                <div class="content-overlay"></div>
+                                 <img class="content-image img-fluid " src="assets/Images/portfolio-1.jpg" alt="" >
+                                <div class="content-details fadeIn-bottom">
+                                 <div class="content-title"><svg xmlns="http://www.w3.org/2000/svg content-title" viewBox="0 -39 511.99926 511" class="svg replaced-svg">
+                                   <path fill="#ffff" d="m24.4375 147.40625c1.285156-.871094-4.65625 3.152344 12.566406-8.511719 11.886719-7.878906 22.414063-14.402343 30.835938-14.402343 2.226562 0 8.992187 0 16.636718 11.355468 21.097657 31.300782 34.304688 81.777344 47.097657 130.675782 14.429687 55.105468 29.347656 112.082031 55.765625 143.574218 12.578125 14.96875 28.539062 22.558594 47.433594 22.558594 25.109374 0 55.261718-13.527344 82.726562-37.117188 78.757812-67.648437 200.289062-213.992187 194.285156-317.59375-2.898437-50.011718-35.4375-77.445312-80.863281-77.445312-38.988281 0-79.652344 20.28125-103.601563 51.671875-19.675781 25.804687-23.996093 43.789063-32.894531 62.921875l26.808594-4.292969c4.1875-.671875 7.917969-1 11.40625-1 10.898437 0 19.308594 3.335938 25.71875 10.210938 6.542969 7 9.25 16.707031 8.273437 29.667969-3.148437 41.703124-45.382812 103.464843-72.320312 124.75-3.308594 2.617187-7.511719 4.179687-11.234375 4.179687-3.382813 0-12.371094 0-22.957031-26.707031-17.683594-44.597656-30.328125-150.195313-49.21875-207.960938-7.210938-22.023437-27.40625-36.253906-51.453125-36.253906-16.101563 0-32.667969 6.386719-47.898438 18.457031-68.265625 54.039063-82.914062 67.203125-111.550781 90.632813zm105.738281-97.75c9.882813-7.832031 20.003907-11.972656 29.273438-11.972656 11.007812 0 19.800781 5.976562 22.949219 15.585937 16.28125 49.789063 32.347656 165.574219 49.839843 209.6875 4.476563 11.292969 18.097657 45.644531 50.839844 45.644531 10.40625 0 21.28125-3.878906 29.835937-10.640624 31.480469-24.875 79.714844-94.128907 83.628907-146.027344 1.617187-21.492188-3.855469-39.121094-16.257813-52.386719-9.59375-10.296875-22.011718-16.722656-36.34375-18.90625 2.226563-3.453125 4.632813-6.871094 7.230469-10.277344 18.472656-24.21875 49.777344-39.871093 79.75-39.871093 21.929687 0 48.5625 8.535156 50.917969 49.183593 5.324218 91.855469-112.691406 231.960938-183.882813 293.109375-21.457031 18.425782-45.667969 29.875-63.183593 29.875-10.03125 0-17.578126-3.660156-24.464844-11.851562-22.078125-26.316406-36.128906-79.984375-49.738282-131.957032-13.40625-51.246093-27.269531-104.234374-51.214843-139.761718-11.484375-17.058594-24.914063-22.808594-35.664063-24.214844 19.792969-16.101562 39.238282-31.566406 56.484375-45.21875zm0 0"></path></svg>
+                                 </div>
+                                  <p class="content-text-1 mt-4">vimeo</p>
+                                  <p class="content-text-2">Aumeo Audio</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="over-lay">
+                          <div class="content">
+                            <a href="https://vimeo.com/337293658" target="_blank">
+                              <div class="content-overlay"></div>
+                              <img class="content-image img-fluid " src="assets/Images/portfolio-2.jpg" alt="" >
+                              <div class="content-details fadeIn-bottom">
+                               <div class="content-title"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -62 512.00199 512" class="svg replaced-svg"><path fill="#fff" d="m334.808594 170.992188-113.113282-61.890626c-6.503906-3.558593-14.191406-3.425781-20.566406.351563-6.378906 3.78125-10.183594 10.460937-10.183594 17.875v122.71875c0 7.378906 3.78125 14.046875 10.117188 17.832031 3.308594 1.976563 6.976562 2.96875 10.652344 2.96875 3.367187 0 6.742187-.832031 9.847656-2.503906l113.117188-60.824219c6.714843-3.613281 10.90625-10.59375 10.9375-18.222656.027343-7.628906-4.113282-14.640625-10.808594-18.304687zm-113.859375 63.617187v-91.71875l84.539062 46.257813zm0 0"></path><path fill="#fff" d="m508.234375 91.527344-.023437-.234375c-.433594-4.121094-4.75-40.777344-22.570313-59.421875-20.597656-21.929688-43.949219-24.59375-55.179687-25.871094-.929688-.105469-1.78125-.203125-2.542969-.304688l-.894531-.09375c-67.6875-4.921874-169.910157-5.5937495-170.933594-5.59765575l-.089844-.00390625-.089844.00390625c-1.023437.00390625-103.246094.67578175-171.542968 5.59765575l-.902344.09375c-.726563.097657-1.527344.1875-2.398438.289063-11.101562 1.28125-34.203125 3.949219-54.859375 26.671875-16.972656 18.445312-21.878906 54.316406-22.382812 58.347656l-.058594.523438c-.152344 1.714844-3.765625 42.539062-3.765625 83.523437v38.3125c0 40.984375 3.613281 81.808594 3.765625 83.527344l.027344.257813c.433593 4.054687 4.746093 40.039062 22.484375 58.691406 19.367187 21.195312 43.855468 24 57.027344 25.507812 2.082031.238282 3.875.441406 5.097656.65625l1.183594.164063c39.082031 3.71875 161.617187 5.550781 166.8125 5.625l.15625.003906.15625-.003906c1.023437-.003907 103.242187-.675781 170.929687-5.597657l.894531-.09375c.855469-.113281 1.816406-.214843 2.871094-.324218 11.039062-1.171875 34.015625-3.605469 54.386719-26.019532 16.972656-18.449218 21.882812-54.320312 22.382812-58.347656l.058594-.523437c.152344-1.71875 3.769531-42.539063 3.769531-83.523438v-38.3125c-.003906-40.984375-3.617187-81.804687-3.769531-83.523437zm-26.238281 121.835937c0 37.933594-3.3125 77-3.625 80.585938-1.273438 9.878906-6.449219 32.574219-14.71875 41.5625-12.75 14.027343-25.847656 15.417969-35.410156 16.429687-1.15625.121094-2.226563.238282-3.195313.359375-65.46875 4.734375-163.832031 5.460938-168.363281 5.488281-5.082032-.074218-125.824219-1.921874-163.714844-5.441406-1.941406-.316406-4.039062-.558594-6.25-.808594-11.214844-1.285156-26.566406-3.042968-38.371094-16.027343l-.277344-.296875c-8.125-8.464844-13.152343-29.6875-14.429687-41.148438-.238281-2.710937-3.636719-42.238281-3.636719-80.703125v-38.3125c0-37.890625 3.304688-76.914062 3.625-80.574219 1.519532-11.636718 6.792969-32.957031 14.71875-41.574218 13.140625-14.453125 26.996094-16.054688 36.160156-17.113282.875-.101562 1.691407-.195312 2.445313-.292968 66.421875-4.757813 165.492187-5.464844 169.046875-5.492188 3.554688.023438 102.589844.734375 168.421875 5.492188.808594.101562 1.691406.203125 2.640625.3125 9.425781 1.074218 23.671875 2.699218 36.746094 16.644531l.121094.128906c8.125 8.464844 13.152343 30.058594 14.429687 41.75.226563 2.558594 3.636719 42.171875 3.636719 80.71875zm0 0"></path></svg>
+                                </div>
+                                <p class="content-text-1 mt-4">Youtube</p>
+                                <p class="content-text-2">Bikker & Jenna</p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+                      <div class="over-lay">
+                        <div class="content">
+                          <a href="https://vimeo.com/337293658" target="_blank">
+                            <div class="content-overlay"></div>
+                            <img class="content-image  img-fluid" src="assets/Images/portfolio-3.jpg" alt="" >
+                            <div class="content-details fadeIn-bottom">
+                             <div class="content-title"><svg xmlns="http://www.w3.org/2000/svg content-title" viewBox="0 -39 511.99926 511" class="svg replaced-svg">
+                                <path fill="#ffff" d="m24.4375 147.40625c1.285156-.871094-4.65625 3.152344 12.566406-8.511719 11.886719-7.878906 22.414063-14.402343 30.835938-14.402343 2.226562 0 8.992187 0 16.636718 11.355468 21.097657 31.300782 34.304688 81.777344 47.097657 130.675782 14.429687 55.105468 29.347656 112.082031 55.765625 143.574218 12.578125 14.96875 28.539062 22.558594 47.433594 22.558594 25.109374 0 55.261718-13.527344 82.726562-37.117188 78.757812-67.648437 200.289062-213.992187 194.285156-317.59375-2.898437-50.011718-35.4375-77.445312-80.863281-77.445312-38.988281 0-79.652344 20.28125-103.601563 51.671875-19.675781 25.804687-23.996093 43.789063-32.894531 62.921875l26.808594-4.292969c4.1875-.671875 7.917969-1 11.40625-1 10.898437 0 19.308594 3.335938 25.71875 10.210938 6.542969 7 9.25 16.707031 8.273437 29.667969-3.148437 41.703124-45.382812 103.464843-72.320312 124.75-3.308594 2.617187-7.511719 4.179687-11.234375 4.179687-3.382813 0-12.371094 0-22.957031-26.707031-17.683594-44.597656-30.328125-150.195313-49.21875-207.960938-7.210938-22.023437-27.40625-36.253906-51.453125-36.253906-16.101563 0-32.667969 6.386719-47.898438 18.457031-68.265625 54.039063-82.914062 67.203125-111.550781 90.632813zm105.738281-97.75c9.882813-7.832031 20.003907-11.972656 29.273438-11.972656 11.007812 0 19.800781 5.976562 22.949219 15.585937 16.28125 49.789063 32.347656 165.574219 49.839843 209.6875 4.476563 11.292969 18.097657 45.644531 50.839844 45.644531 10.40625 0 21.28125-3.878906 29.835937-10.640624 31.480469-24.875 79.714844-94.128907 83.628907-146.027344 1.617187-21.492188-3.855469-39.121094-16.257813-52.386719-9.59375-10.296875-22.011718-16.722656-36.34375-18.90625 2.226563-3.453125 4.632813-6.871094 7.230469-10.277344 18.472656-24.21875 49.777344-39.871093 79.75-39.871093 21.929687 0 48.5625 8.535156 50.917969 49.183593 5.324218 91.855469-112.691406 231.960938-183.882813 293.109375-21.457031 18.425782-45.667969 29.875-63.183593 29.875-10.03125 0-17.578126-3.660156-24.464844-11.851562-22.078125-26.316406-36.128906-79.984375-49.738282-131.957032-13.40625-51.246093-27.269531-104.234374-51.214843-139.761718-11.484375-17.058594-24.914063-22.808594-35.664063-24.214844 19.792969-16.101562 39.238282-31.566406 56.484375-45.21875zm0 0"></path></svg>
+                              </div>
+                              <p class="content-text-1 mt-4">vimeo</p>
+                              <p class="content-text-2">Aumeo Audio</p>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                  </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                          <div class="over-lay">
+                            <div class="content">
+                              <a href="https://vimeo.com/337293658" target="_blank">
+                                <div class="content-overlay"></div>
+                                <img class="content-image img-fluid " src="assets/Images/portfolio-4.jpg" alt="">
+                                <div class="content-details fadeIn-bottom">
+                                 <div class="content-title"><svg xmlns="http://www.w3.org/2000/svg content-title" viewBox="0 -39 511.99926 511" class="svg replaced-svg">
+                                    <path fill="#ffff" d="m24.4375 147.40625c1.285156-.871094-4.65625 3.152344 12.566406-8.511719 11.886719-7.878906 22.414063-14.402343 30.835938-14.402343 2.226562 0 8.992187 0 16.636718 11.355468 21.097657 31.300782 34.304688 81.777344 47.097657 130.675782 14.429687 55.105468 29.347656 112.082031 55.765625 143.574218 12.578125 14.96875 28.539062 22.558594 47.433594 22.558594 25.109374 0 55.261718-13.527344 82.726562-37.117188 78.757812-67.648437 200.289062-213.992187 194.285156-317.59375-2.898437-50.011718-35.4375-77.445312-80.863281-77.445312-38.988281 0-79.652344 20.28125-103.601563 51.671875-19.675781 25.804687-23.996093 43.789063-32.894531 62.921875l26.808594-4.292969c4.1875-.671875 7.917969-1 11.40625-1 10.898437 0 19.308594 3.335938 25.71875 10.210938 6.542969 7 9.25 16.707031 8.273437 29.667969-3.148437 41.703124-45.382812 103.464843-72.320312 124.75-3.308594 2.617187-7.511719 4.179687-11.234375 4.179687-3.382813 0-12.371094 0-22.957031-26.707031-17.683594-44.597656-30.328125-150.195313-49.21875-207.960938-7.210938-22.023437-27.40625-36.253906-51.453125-36.253906-16.101563 0-32.667969 6.386719-47.898438 18.457031-68.265625 54.039063-82.914062 67.203125-111.550781 90.632813zm105.738281-97.75c9.882813-7.832031 20.003907-11.972656 29.273438-11.972656 11.007812 0 19.800781 5.976562 22.949219 15.585937 16.28125 49.789063 32.347656 165.574219 49.839843 209.6875 4.476563 11.292969 18.097657 45.644531 50.839844 45.644531 10.40625 0 21.28125-3.878906 29.835937-10.640624 31.480469-24.875 79.714844-94.128907 83.628907-146.027344 1.617187-21.492188-3.855469-39.121094-16.257813-52.386719-9.59375-10.296875-22.011718-16.722656-36.34375-18.90625 2.226563-3.453125 4.632813-6.871094 7.230469-10.277344 18.472656-24.21875 49.777344-39.871093 79.75-39.871093 21.929687 0 48.5625 8.535156 50.917969 49.183593 5.324218 91.855469-112.691406 231.960938-183.882813 293.109375-21.457031 18.425782-45.667969 29.875-63.183593 29.875-10.03125 0-17.578126-3.660156-24.464844-11.851562-22.078125-26.316406-36.128906-79.984375-49.738282-131.957032-13.40625-51.246093-27.269531-104.234374-51.214843-139.761718-11.484375-17.058594-24.914063-22.808594-35.664063-24.214844 19.792969-16.101562 39.238282-31.566406 56.484375-45.21875zm0 0"></path></svg>
+                                  </div>
+                                  <p class="content-text-1 mt-4">Youtube</p>
+                                  <p class="content-text-2">Model Car</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="over-lay">
+                          <div class="content">
+                            <a href="https://vimeo.com/337293658" target="_blank">
+                              <div class="content-overlay"></div>
+                              <img class="content-image img-fluid " src="assets/Images/portfolio-5.jpg" alt="">
+                              <div class="content-details fadeIn-bottom">
+                               <div class="content-title"><svg xmlns="http://www.w3.org/2000/svg content-title" viewBox="0 -39 511.99926 511" class="svg replaced-svg">
+                                  <path fill="#ffff" d="m24.4375 147.40625c1.285156-.871094-4.65625 3.152344 12.566406-8.511719 11.886719-7.878906 22.414063-14.402343 30.835938-14.402343 2.226562 0 8.992187 0 16.636718 11.355468 21.097657 31.300782 34.304688 81.777344 47.097657 130.675782 14.429687 55.105468 29.347656 112.082031 55.765625 143.574218 12.578125 14.96875 28.539062 22.558594 47.433594 22.558594 25.109374 0 55.261718-13.527344 82.726562-37.117188 78.757812-67.648437 200.289062-213.992187 194.285156-317.59375-2.898437-50.011718-35.4375-77.445312-80.863281-77.445312-38.988281 0-79.652344 20.28125-103.601563 51.671875-19.675781 25.804687-23.996093 43.789063-32.894531 62.921875l26.808594-4.292969c4.1875-.671875 7.917969-1 11.40625-1 10.898437 0 19.308594 3.335938 25.71875 10.210938 6.542969 7 9.25 16.707031 8.273437 29.667969-3.148437 41.703124-45.382812 103.464843-72.320312 124.75-3.308594 2.617187-7.511719 4.179687-11.234375 4.179687-3.382813 0-12.371094 0-22.957031-26.707031-17.683594-44.597656-30.328125-150.195313-49.21875-207.960938-7.210938-22.023437-27.40625-36.253906-51.453125-36.253906-16.101563 0-32.667969 6.386719-47.898438 18.457031-68.265625 54.039063-82.914062 67.203125-111.550781 90.632813zm105.738281-97.75c9.882813-7.832031 20.003907-11.972656 29.273438-11.972656 11.007812 0 19.800781 5.976562 22.949219 15.585937 16.28125 49.789063 32.347656 165.574219 49.839843 209.6875 4.476563 11.292969 18.097657 45.644531 50.839844 45.644531 10.40625 0 21.28125-3.878906 29.835937-10.640624 31.480469-24.875 79.714844-94.128907 83.628907-146.027344 1.617187-21.492188-3.855469-39.121094-16.257813-52.386719-9.59375-10.296875-22.011718-16.722656-36.34375-18.90625 2.226563-3.453125 4.632813-6.871094 7.230469-10.277344 18.472656-24.21875 49.777344-39.871093 79.75-39.871093 21.929687 0 48.5625 8.535156 50.917969 49.183593 5.324218 91.855469-112.691406 231.960938-183.882813 293.109375-21.457031 18.425782-45.667969 29.875-63.183593 29.875-10.03125 0-17.578126-3.660156-24.464844-11.851562-22.078125-26.316406-36.128906-79.984375-49.738282-131.957032-13.40625-51.246093-27.269531-104.234374-51.214843-139.761718-11.484375-17.058594-24.914063-22.808594-35.664063-24.214844 19.792969-16.101562 39.238282-31.566406 56.484375-45.21875zm0 0"></path></svg>
+                                </div>
+                                <p class="content-text-1 mt-4">Vimeo</p>
+                                <p class="content-text-2">Smart Watch</p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+                      <div class="over-lay">
+                        <div class="content">
+                          <a href="https://vimeo.com/337293658" target="_blank">
+                            <div class="content-overlay"></div>
+                            <img class="content-image img-fluid " src="assets/Images/portfolio-6.jpg" alt="" >
+                            <div class="content-details fadeIn-bottom">
+                             <div class="content-title"><svg xmlns="http://www.w3.org/2000/svg content-title" viewBox="0 -39 511.99926 511" class="svg replaced-svg">
+                                <path fill="#ffff" d="m24.4375 147.40625c1.285156-.871094-4.65625 3.152344 12.566406-8.511719 11.886719-7.878906 22.414063-14.402343 30.835938-14.402343 2.226562 0 8.992187 0 16.636718 11.355468 21.097657 31.300782 34.304688 81.777344 47.097657 130.675782 14.429687 55.105468 29.347656 112.082031 55.765625 143.574218 12.578125 14.96875 28.539062 22.558594 47.433594 22.558594 25.109374 0 55.261718-13.527344 82.726562-37.117188 78.757812-67.648437 200.289062-213.992187 194.285156-317.59375-2.898437-50.011718-35.4375-77.445312-80.863281-77.445312-38.988281 0-79.652344 20.28125-103.601563 51.671875-19.675781 25.804687-23.996093 43.789063-32.894531 62.921875l26.808594-4.292969c4.1875-.671875 7.917969-1 11.40625-1 10.898437 0 19.308594 3.335938 25.71875 10.210938 6.542969 7 9.25 16.707031 8.273437 29.667969-3.148437 41.703124-45.382812 103.464843-72.320312 124.75-3.308594 2.617187-7.511719 4.179687-11.234375 4.179687-3.382813 0-12.371094 0-22.957031-26.707031-17.683594-44.597656-30.328125-150.195313-49.21875-207.960938-7.210938-22.023437-27.40625-36.253906-51.453125-36.253906-16.101563 0-32.667969 6.386719-47.898438 18.457031-68.265625 54.039063-82.914062 67.203125-111.550781 90.632813zm105.738281-97.75c9.882813-7.832031 20.003907-11.972656 29.273438-11.972656 11.007812 0 19.800781 5.976562 22.949219 15.585937 16.28125 49.789063 32.347656 165.574219 49.839843 209.6875 4.476563 11.292969 18.097657 45.644531 50.839844 45.644531 10.40625 0 21.28125-3.878906 29.835937-10.640624 31.480469-24.875 79.714844-94.128907 83.628907-146.027344 1.617187-21.492188-3.855469-39.121094-16.257813-52.386719-9.59375-10.296875-22.011718-16.722656-36.34375-18.90625 2.226563-3.453125 4.632813-6.871094 7.230469-10.277344 18.472656-24.21875 49.777344-39.871093 79.75-39.871093 21.929687 0 48.5625 8.535156 50.917969 49.183593 5.324218 91.855469-112.691406 231.960938-183.882813 293.109375-21.457031 18.425782-45.667969 29.875-63.183593 29.875-10.03125 0-17.578126-3.660156-24.464844-11.851562-22.078125-26.316406-36.128906-79.984375-49.738282-131.957032-13.40625-51.246093-27.269531-104.234374-51.214843-139.761718-11.484375-17.058594-24.914063-22.808594-35.664063-24.214844 19.792969-16.101562 39.238282-31.566406 56.484375-45.21875zm0 0"></path></svg>
+                              </div>
+                              <p class="content-text-1 mt-4">Detials</p>
+                              <p class="content-text-2">Teresa Melbig</p>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                  </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane " id="2a">
+                        <div class="row">
+                           <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                              <div class="over-lay">
+                                <div class="content">
+                                  <a href="https://vimeo.com/337293658" target="_blank">
+                                    <div class="content-overlay"></div>
+                                     <img class="content-image img-fluid " src="assets/Images/portfolio-1.jpg" alt="" >
+                                    <div class="content-details fadeIn-bottom">
+                                     <div class="content-title"><svg xmlns="http://www.w3.org/2000/svg content-title" viewBox="0 -39 511.99926 511" class="svg replaced-svg">
+                                       <path fill="#ffff" d="m24.4375 147.40625c1.285156-.871094-4.65625 3.152344 12.566406-8.511719 11.886719-7.878906 22.414063-14.402343 30.835938-14.402343 2.226562 0 8.992187 0 16.636718 11.355468 21.097657 31.300782 34.304688 81.777344 47.097657 130.675782 14.429687 55.105468 29.347656 112.082031 55.765625 143.574218 12.578125 14.96875 28.539062 22.558594 47.433594 22.558594 25.109374 0 55.261718-13.527344 82.726562-37.117188 78.757812-67.648437 200.289062-213.992187 194.285156-317.59375-2.898437-50.011718-35.4375-77.445312-80.863281-77.445312-38.988281 0-79.652344 20.28125-103.601563 51.671875-19.675781 25.804687-23.996093 43.789063-32.894531 62.921875l26.808594-4.292969c4.1875-.671875 7.917969-1 11.40625-1 10.898437 0 19.308594 3.335938 25.71875 10.210938 6.542969 7 9.25 16.707031 8.273437 29.667969-3.148437 41.703124-45.382812 103.464843-72.320312 124.75-3.308594 2.617187-7.511719 4.179687-11.234375 4.179687-3.382813 0-12.371094 0-22.957031-26.707031-17.683594-44.597656-30.328125-150.195313-49.21875-207.960938-7.210938-22.023437-27.40625-36.253906-51.453125-36.253906-16.101563 0-32.667969 6.386719-47.898438 18.457031-68.265625 54.039063-82.914062 67.203125-111.550781 90.632813zm105.738281-97.75c9.882813-7.832031 20.003907-11.972656 29.273438-11.972656 11.007812 0 19.800781 5.976562 22.949219 15.585937 16.28125 49.789063 32.347656 165.574219 49.839843 209.6875 4.476563 11.292969 18.097657 45.644531 50.839844 45.644531 10.40625 0 21.28125-3.878906 29.835937-10.640624 31.480469-24.875 79.714844-94.128907 83.628907-146.027344 1.617187-21.492188-3.855469-39.121094-16.257813-52.386719-9.59375-10.296875-22.011718-16.722656-36.34375-18.90625 2.226563-3.453125 4.632813-6.871094 7.230469-10.277344 18.472656-24.21875 49.777344-39.871093 79.75-39.871093 21.929687 0 48.5625 8.535156 50.917969 49.183593 5.324218 91.855469-112.691406 231.960938-183.882813 293.109375-21.457031 18.425782-45.667969 29.875-63.183593 29.875-10.03125 0-17.578126-3.660156-24.464844-11.851562-22.078125-26.316406-36.128906-79.984375-49.738282-131.957032-13.40625-51.246093-27.269531-104.234374-51.214843-139.761718-11.484375-17.058594-24.914063-22.808594-35.664063-24.214844 19.792969-16.101562 39.238282-31.566406 56.484375-45.21875zm0 0"></path></svg>
+                                     </div>
+                                      <p class="content-text-1 mt-4">vimeo</p>
+                                      <p class="content-text-2">Aumeo Audio</p>
+                                    </div>
+                                  </a>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                            <div class="over-lay">
+                              <div class="content">
+                                <a href="https://vimeo.com/337293658" target="_blank">
+                                  <div class="content-overlay"></div>
+                                  <img class="content-image img-fluid " src="assets/Images/portfolio-5.jpg" alt="">
+                                  <div class="content-details fadeIn-bottom">
+                                   <div class="content-title"><svg xmlns="http://www.w3.org/2000/svg content-title" viewBox="0 -39 511.99926 511" class="svg replaced-svg">
+                                      <path fill="#ffff" d="m24.4375 147.40625c1.285156-.871094-4.65625 3.152344 12.566406-8.511719 11.886719-7.878906 22.414063-14.402343 30.835938-14.402343 2.226562 0 8.992187 0 16.636718 11.355468 21.097657 31.300782 34.304688 81.777344 47.097657 130.675782 14.429687 55.105468 29.347656 112.082031 55.765625 143.574218 12.578125 14.96875 28.539062 22.558594 47.433594 22.558594 25.109374 0 55.261718-13.527344 82.726562-37.117188 78.757812-67.648437 200.289062-213.992187 194.285156-317.59375-2.898437-50.011718-35.4375-77.445312-80.863281-77.445312-38.988281 0-79.652344 20.28125-103.601563 51.671875-19.675781 25.804687-23.996093 43.789063-32.894531 62.921875l26.808594-4.292969c4.1875-.671875 7.917969-1 11.40625-1 10.898437 0 19.308594 3.335938 25.71875 10.210938 6.542969 7 9.25 16.707031 8.273437 29.667969-3.148437 41.703124-45.382812 103.464843-72.320312 124.75-3.308594 2.617187-7.511719 4.179687-11.234375 4.179687-3.382813 0-12.371094 0-22.957031-26.707031-17.683594-44.597656-30.328125-150.195313-49.21875-207.960938-7.210938-22.023437-27.40625-36.253906-51.453125-36.253906-16.101563 0-32.667969 6.386719-47.898438 18.457031-68.265625 54.039063-82.914062 67.203125-111.550781 90.632813zm105.738281-97.75c9.882813-7.832031 20.003907-11.972656 29.273438-11.972656 11.007812 0 19.800781 5.976562 22.949219 15.585937 16.28125 49.789063 32.347656 165.574219 49.839843 209.6875 4.476563 11.292969 18.097657 45.644531 50.839844 45.644531 10.40625 0 21.28125-3.878906 29.835937-10.640624 31.480469-24.875 79.714844-94.128907 83.628907-146.027344 1.617187-21.492188-3.855469-39.121094-16.257813-52.386719-9.59375-10.296875-22.011718-16.722656-36.34375-18.90625 2.226563-3.453125 4.632813-6.871094 7.230469-10.277344 18.472656-24.21875 49.777344-39.871093 79.75-39.871093 21.929687 0 48.5625 8.535156 50.917969 49.183593 5.324218 91.855469-112.691406 231.960938-183.882813 293.109375-21.457031 18.425782-45.667969 29.875-63.183593 29.875-10.03125 0-17.578126-3.660156-24.464844-11.851562-22.078125-26.316406-36.128906-79.984375-49.738282-131.957032-13.40625-51.246093-27.269531-104.234374-51.214843-139.761718-11.484375-17.058594-24.914063-22.808594-35.664063-24.214844 19.792969-16.101562 39.238282-31.566406 56.484375-45.21875zm0 0"></path></svg>
+                                    </div>
+                                    <p class="content-text-1 mt-4">Vimeo</p>
+                                    <p class="content-text-2">Smart Watch</p>
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+                        </div>
+                          </div>
+                        </div>
+            <div class="tab-pane" id="3a">
+                <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="over-lay">
+                      <div class="content">
+                        <a href="https://vimeo.com/337293658" target="_blank">
+                          <div class="content-overlay"></div>
+                          <img class="content-image img-fluid " src="assets/Images/portfolio-2.jpg" alt="" >
+                          <div class="content-details fadeIn-bottom">
+                           <div class="content-title"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -62 512.00199 512" class="svg replaced-svg"><path fill="#fff" d="m334.808594 170.992188-113.113282-61.890626c-6.503906-3.558593-14.191406-3.425781-20.566406.351563-6.378906 3.78125-10.183594 10.460937-10.183594 17.875v122.71875c0 7.378906 3.78125 14.046875 10.117188 17.832031 3.308594 1.976563 6.976562 2.96875 10.652344 2.96875 3.367187 0 6.742187-.832031 9.847656-2.503906l113.117188-60.824219c6.714843-3.613281 10.90625-10.59375 10.9375-18.222656.027343-7.628906-4.113282-14.640625-10.808594-18.304687zm-113.859375 63.617187v-91.71875l84.539062 46.257813zm0 0"></path><path fill="#fff" d="m508.234375 91.527344-.023437-.234375c-.433594-4.121094-4.75-40.777344-22.570313-59.421875-20.597656-21.929688-43.949219-24.59375-55.179687-25.871094-.929688-.105469-1.78125-.203125-2.542969-.304688l-.894531-.09375c-67.6875-4.921874-169.910157-5.5937495-170.933594-5.59765575l-.089844-.00390625-.089844.00390625c-1.023437.00390625-103.246094.67578175-171.542968 5.59765575l-.902344.09375c-.726563.097657-1.527344.1875-2.398438.289063-11.101562 1.28125-34.203125 3.949219-54.859375 26.671875-16.972656 18.445312-21.878906 54.316406-22.382812 58.347656l-.058594.523438c-.152344 1.714844-3.765625 42.539062-3.765625 83.523437v38.3125c0 40.984375 3.613281 81.808594 3.765625 83.527344l.027344.257813c.433593 4.054687 4.746093 40.039062 22.484375 58.691406 19.367187 21.195312 43.855468 24 57.027344 25.507812 2.082031.238282 3.875.441406 5.097656.65625l1.183594.164063c39.082031 3.71875 161.617187 5.550781 166.8125 5.625l.15625.003906.15625-.003906c1.023437-.003907 103.242187-.675781 170.929687-5.597657l.894531-.09375c.855469-.113281 1.816406-.214843 2.871094-.324218 11.039062-1.171875 34.015625-3.605469 54.386719-26.019532 16.972656-18.449218 21.882812-54.320312 22.382812-58.347656l.058594-.523437c.152344-1.71875 3.769531-42.539063 3.769531-83.523438v-38.3125c-.003906-40.984375-3.617187-81.804687-3.769531-83.523437zm-26.238281 121.835937c0 37.933594-3.3125 77-3.625 80.585938-1.273438 9.878906-6.449219 32.574219-14.71875 41.5625-12.75 14.027343-25.847656 15.417969-35.410156 16.429687-1.15625.121094-2.226563.238282-3.195313.359375-65.46875 4.734375-163.832031 5.460938-168.363281 5.488281-5.082032-.074218-125.824219-1.921874-163.714844-5.441406-1.941406-.316406-4.039062-.558594-6.25-.808594-11.214844-1.285156-26.566406-3.042968-38.371094-16.027343l-.277344-.296875c-8.125-8.464844-13.152343-29.6875-14.429687-41.148438-.238281-2.710937-3.636719-42.238281-3.636719-80.703125v-38.3125c0-37.890625 3.304688-76.914062 3.625-80.574219 1.519532-11.636718 6.792969-32.957031 14.71875-41.574218 13.140625-14.453125 26.996094-16.054688 36.160156-17.113282.875-.101562 1.691407-.195312 2.445313-.292968 66.421875-4.757813 165.492187-5.464844 169.046875-5.492188 3.554688.023438 102.589844.734375 168.421875 5.492188.808594.101562 1.691406.203125 2.640625.3125 9.425781 1.074218 23.671875 2.699218 36.746094 16.644531l.121094.128906c8.125 8.464844 13.152343 30.058594 14.429687 41.75.226563 2.558594 3.636719 42.171875 3.636719 80.71875zm0 0"></path></svg>
+                            </div>
+                            <p class="content-text-1 mt-4">Youtube</p>
+                            <p class="content-text-2">Bikker & Jenna</p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="over-lay">
+                      <div class="content">
+                        <a href="https://vimeo.com/337293658" target="_blank">
+                          <div class="content-overlay"></div>
+                          <img class="content-image img-fluid " src="assets/Images/portfolio-4.jpg" alt="">
+                          <div class="content-details fadeIn-bottom">
+                           <div class="content-title"><svg xmlns="http://www.w3.org/2000/svg content-title" viewBox="0 -39 511.99926 511" class="svg replaced-svg">
+                              <path fill="#ffff" d="m24.4375 147.40625c1.285156-.871094-4.65625 3.152344 12.566406-8.511719 11.886719-7.878906 22.414063-14.402343 30.835938-14.402343 2.226562 0 8.992187 0 16.636718 11.355468 21.097657 31.300782 34.304688 81.777344 47.097657 130.675782 14.429687 55.105468 29.347656 112.082031 55.765625 143.574218 12.578125 14.96875 28.539062 22.558594 47.433594 22.558594 25.109374 0 55.261718-13.527344 82.726562-37.117188 78.757812-67.648437 200.289062-213.992187 194.285156-317.59375-2.898437-50.011718-35.4375-77.445312-80.863281-77.445312-38.988281 0-79.652344 20.28125-103.601563 51.671875-19.675781 25.804687-23.996093 43.789063-32.894531 62.921875l26.808594-4.292969c4.1875-.671875 7.917969-1 11.40625-1 10.898437 0 19.308594 3.335938 25.71875 10.210938 6.542969 7 9.25 16.707031 8.273437 29.667969-3.148437 41.703124-45.382812 103.464843-72.320312 124.75-3.308594 2.617187-7.511719 4.179687-11.234375 4.179687-3.382813 0-12.371094 0-22.957031-26.707031-17.683594-44.597656-30.328125-150.195313-49.21875-207.960938-7.210938-22.023437-27.40625-36.253906-51.453125-36.253906-16.101563 0-32.667969 6.386719-47.898438 18.457031-68.265625 54.039063-82.914062 67.203125-111.550781 90.632813zm105.738281-97.75c9.882813-7.832031 20.003907-11.972656 29.273438-11.972656 11.007812 0 19.800781 5.976562 22.949219 15.585937 16.28125 49.789063 32.347656 165.574219 49.839843 209.6875 4.476563 11.292969 18.097657 45.644531 50.839844 45.644531 10.40625 0 21.28125-3.878906 29.835937-10.640624 31.480469-24.875 79.714844-94.128907 83.628907-146.027344 1.617187-21.492188-3.855469-39.121094-16.257813-52.386719-9.59375-10.296875-22.011718-16.722656-36.34375-18.90625 2.226563-3.453125 4.632813-6.871094 7.230469-10.277344 18.472656-24.21875 49.777344-39.871093 79.75-39.871093 21.929687 0 48.5625 8.535156 50.917969 49.183593 5.324218 91.855469-112.691406 231.960938-183.882813 293.109375-21.457031 18.425782-45.667969 29.875-63.183593 29.875-10.03125 0-17.578126-3.660156-24.464844-11.851562-22.078125-26.316406-36.128906-79.984375-49.738282-131.957032-13.40625-51.246093-27.269531-104.234374-51.214843-139.761718-11.484375-17.058594-24.914063-22.808594-35.664063-24.214844 19.792969-16.101562 39.238282-31.566406 56.484375-45.21875zm0 0"></path></svg>
+                            </div>
+                            <p class="content-text-1 mt-4">Youtube</p>
+                            <p class="content-text-2">Model Car</p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+              <div class="tab-pane" id="4a">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+                        <div class="over-lay">
+                          <div class="content">
+                            <a href="https://vimeo.com/337293658" target="_blank">
+                              <div class="content-overlay"></div>
+                              <img class="content-image  img-fluid" src="assets/Images/portfolio-3.jpg" alt="" >
+                              <div class="content-details fadeIn-bottom">
+                               <div class="content-title"><svg xmlns="http://www.w3.org/2000/svg content-title" viewBox="0 -39 511.99926 511" class="svg replaced-svg">
+                                  <path fill="#ffff" d="m24.4375 147.40625c1.285156-.871094-4.65625 3.152344 12.566406-8.511719 11.886719-7.878906 22.414063-14.402343 30.835938-14.402343 2.226562 0 8.992187 0 16.636718 11.355468 21.097657 31.300782 34.304688 81.777344 47.097657 130.675782 14.429687 55.105468 29.347656 112.082031 55.765625 143.574218 12.578125 14.96875 28.539062 22.558594 47.433594 22.558594 25.109374 0 55.261718-13.527344 82.726562-37.117188 78.757812-67.648437 200.289062-213.992187 194.285156-317.59375-2.898437-50.011718-35.4375-77.445312-80.863281-77.445312-38.988281 0-79.652344 20.28125-103.601563 51.671875-19.675781 25.804687-23.996093 43.789063-32.894531 62.921875l26.808594-4.292969c4.1875-.671875 7.917969-1 11.40625-1 10.898437 0 19.308594 3.335938 25.71875 10.210938 6.542969 7 9.25 16.707031 8.273437 29.667969-3.148437 41.703124-45.382812 103.464843-72.320312 124.75-3.308594 2.617187-7.511719 4.179687-11.234375 4.179687-3.382813 0-12.371094 0-22.957031-26.707031-17.683594-44.597656-30.328125-150.195313-49.21875-207.960938-7.210938-22.023437-27.40625-36.253906-51.453125-36.253906-16.101563 0-32.667969 6.386719-47.898438 18.457031-68.265625 54.039063-82.914062 67.203125-111.550781 90.632813zm105.738281-97.75c9.882813-7.832031 20.003907-11.972656 29.273438-11.972656 11.007812 0 19.800781 5.976562 22.949219 15.585937 16.28125 49.789063 32.347656 165.574219 49.839843 209.6875 4.476563 11.292969 18.097657 45.644531 50.839844 45.644531 10.40625 0 21.28125-3.878906 29.835937-10.640624 31.480469-24.875 79.714844-94.128907 83.628907-146.027344 1.617187-21.492188-3.855469-39.121094-16.257813-52.386719-9.59375-10.296875-22.011718-16.722656-36.34375-18.90625 2.226563-3.453125 4.632813-6.871094 7.230469-10.277344 18.472656-24.21875 49.777344-39.871093 79.75-39.871093 21.929687 0 48.5625 8.535156 50.917969 49.183593 5.324218 91.855469-112.691406 231.960938-183.882813 293.109375-21.457031 18.425782-45.667969 29.875-63.183593 29.875-10.03125 0-17.578126-3.660156-24.464844-11.851562-22.078125-26.316406-36.128906-79.984375-49.738282-131.957032-13.40625-51.246093-27.269531-104.234374-51.214843-139.761718-11.484375-17.058594-24.914063-22.808594-35.664063-24.214844 19.792969-16.101562 39.238282-31.566406 56.484375-45.21875zm0 0"></path></svg>
+                                </div>
+                                <p class="content-text-1 mt-4">vimeo</p>
+                                <p class="content-text-2">Aumeo Audio</p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+                    <div class="tab-pane" id="5a">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+                                <div class="over-lay">
+                                  <div class="content">
+                                    <a href="https://vimeo.com/337293658" target="_blank">
+                                      <div class="content-overlay"></div>
+                                      <img class="content-image img-fluid " src="assets/Images/portfolio-6.jpg" alt="" >
+                                      <div class="content-details fadeIn-bottom">
+                                       <div class="content-title"><svg xmlns="http://www.w3.org/2000/svg content-title" viewBox="0 -39 511.99926 511" class="svg replaced-svg">
+                                          <path fill="#ffff" d="m24.4375 147.40625c1.285156-.871094-4.65625 3.152344 12.566406-8.511719 11.886719-7.878906 22.414063-14.402343 30.835938-14.402343 2.226562 0 8.992187 0 16.636718 11.355468 21.097657 31.300782 34.304688 81.777344 47.097657 130.675782 14.429687 55.105468 29.347656 112.082031 55.765625 143.574218 12.578125 14.96875 28.539062 22.558594 47.433594 22.558594 25.109374 0 55.261718-13.527344 82.726562-37.117188 78.757812-67.648437 200.289062-213.992187 194.285156-317.59375-2.898437-50.011718-35.4375-77.445312-80.863281-77.445312-38.988281 0-79.652344 20.28125-103.601563 51.671875-19.675781 25.804687-23.996093 43.789063-32.894531 62.921875l26.808594-4.292969c4.1875-.671875 7.917969-1 11.40625-1 10.898437 0 19.308594 3.335938 25.71875 10.210938 6.542969 7 9.25 16.707031 8.273437 29.667969-3.148437 41.703124-45.382812 103.464843-72.320312 124.75-3.308594 2.617187-7.511719 4.179687-11.234375 4.179687-3.382813 0-12.371094 0-22.957031-26.707031-17.683594-44.597656-30.328125-150.195313-49.21875-207.960938-7.210938-22.023437-27.40625-36.253906-51.453125-36.253906-16.101563 0-32.667969 6.386719-47.898438 18.457031-68.265625 54.039063-82.914062 67.203125-111.550781 90.632813zm105.738281-97.75c9.882813-7.832031 20.003907-11.972656 29.273438-11.972656 11.007812 0 19.800781 5.976562 22.949219 15.585937 16.28125 49.789063 32.347656 165.574219 49.839843 209.6875 4.476563 11.292969 18.097657 45.644531 50.839844 45.644531 10.40625 0 21.28125-3.878906 29.835937-10.640624 31.480469-24.875 79.714844-94.128907 83.628907-146.027344 1.617187-21.492188-3.855469-39.121094-16.257813-52.386719-9.59375-10.296875-22.011718-16.722656-36.34375-18.90625 2.226563-3.453125 4.632813-6.871094 7.230469-10.277344 18.472656-24.21875 49.777344-39.871093 79.75-39.871093 21.929687 0 48.5625 8.535156 50.917969 49.183593 5.324218 91.855469-112.691406 231.960938-183.882813 293.109375-21.457031 18.425782-45.667969 29.875-63.183593 29.875-10.03125 0-17.578126-3.660156-24.464844-11.851562-22.078125-26.316406-36.128906-79.984375-49.738282-131.957032-13.40625-51.246093-27.269531-104.234374-51.214843-139.761718-11.484375-17.058594-24.914063-22.808594-35.664063-24.214844 19.792969-16.101562 39.238282-31.566406 56.484375-45.21875zm0 0"></path></svg>
+                                        </div>
+                                        <p class="content-text-1 mt-4">Detials</p>
+                                        <p class="content-text-2">Teresa Melbig</p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+  </div>
+
+  </div>
+</div>
+</section>
+    <!-- Portfolio Section End Here -->
+
+    <!-- Service Section Start Here -->
+
+<section  id="section4" class="section">
+  <div class="container px-6 ">
+   <div class="resume-body my-bg mb-7">
+    <div class="row">
+      <div class="col-;g-6">
+        <div class="resume-details">
+          <h3>Service</h3>
+          <h1>Never compromise with quality</h1>
+        </div>
+      </div>
+      <div class="col-lg-6 ">
+      </div>
+    </div>
+    <div class="service-body">
+     <div class="row row-flex">
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="abc">
+         <div class="service-section">
+          <div class="service-text text-center">
+           <i class="fas fa-box"></i>
+          </div>
+           <div class="service-body-text text-center">
+            <h1>Wireframing</h1>
+            <p>Web development is the building and maintenance of websites. it’s the work that...</p>
+          </div>
+         </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12  mb-4">
+        <div class="abc">
+        <div class="service-section">
+          <div class="service-text text-center">
+           <i class="fas fa-box"></i>
+           </div>
+           <div class="service-body-text text-center">
+            <h1>Prototype</h1>
+            <p>Web development is the building and maintenance of websites. it’s the work that...</p>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12  mb-4">
+        <div class="abc">
+        <div class="service-section">
+          <div class="service-text text-center">
+           <i class="fas fa-box"></i>
+           </div>
+           <div class="service-body-text text-center">
+            <h1>UI Design</h1>
+            <p>Web development is the building and maintenance of websites. it’s the work that...</p>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12  mb-4">
+        <div class="abc">
+        <div class="service-section">
+          <div class="service-text text-center">
+           <i class="fas fa-box"></i>
+           </div>
+           <div class="service-body-text text-center">
+            <h1>Personal Creation</h1>
+            <p>Web development is the building and maintenance of websites. it’s the work that...</p>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12  mb-4">
+        <div class="abc">
+        <div class="service-section ">
+          <div class="service-text text-center">
+           <i class="fas fa-box"></i>
+           </div>
+           <div class="service-body-text text-center">
+            <h1>Case Study</h1>
+            <p>Web development is the building and maintenance of websites. it’s the work that...</p>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12  mb-4">
+        <div class="abc">
+        <div class="service-section">
+          <div class="service-text text-center">
+           <i class="fas fa-box"></i>
+           </div>
+           <div class="service-body-text text-center">
+            <h1>Experience Design</h1>
+            <p>Web development is the building and maintenance of websites. it’s the work that...</p>
+          </div>
+        </div>
+      </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>   
+</section>
+    <!-- Service Section End Here -->
+
+    <!-- Testimonials Section Start Here -->
+
+<section  id="section5" class="section">
+ <div class="container px-6 ">
+  <div class="resume-body my-bg mb-7">
+   <div class="row">
+    <div class="col-lg-6">
+     <div class="resume-details">
+      <h3>Testimonials</h3>
+      <h1>What people say about me</h1>
+     </div>
+    </div>
+    <div class="col-lg-6 ">
+    </div>
+   </div>
+    <div class="container d-none d-md-block">
+     <div class="row">
+      <div class="col-12">
+       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="testimonial-top">
+                          <div class="testimonial">
+                            <p>The design is elegant. The customer support on this product is also amazing. I would highly recommend you to purchase templates from the Marketify team!</p>
+                          </div>
+                          <div class="media">
+                            <div class="media-left d-flex mr-3">
+                              <img src="/assets/Images/slider-image-1.jpg" alt="">										
+                            </div>
+                            <div class="media-body">
+                              <div class="overview">
+                                <div class="name"><b>Kerry Hudson</b></div>
+                                <div class="details">IBO. Corp</div>
+                              </div>										
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                        <div class="col-md-6">
+                          <div class="testimonial-top">
+                          <div class="testimonial">
+                            <p>Not only was customer support very fast, but the design is very professional. Will definitely be looking for new products in the future from this author.</p>
+                          </div>
+                          <div class="media">
+                            <div class="media-left d-flex mr-3">
+                              <img src="/assets/Images/slider-image-2.jpg" alt="">										
+                            </div>
+                            <div class="media-body">
+                              <div class="overview">
+                                <div class="name"><b>Albert Walke</b></div>
+                                <div class="details">Singer</div>
+                              </div>										
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>			
+                    </div>
+                    <div class="carousel-item ">
+                      <div class="row">
+                        <div class="col-md-6 ">
+                          <div class="testimonial-top">
+                          <div class="testimonial">
+                            <p>The design is elegant. The customer support on this product is also amazing. I would highly recommend you to purchase templates from the Marketify team!</p>
+                          </div>
+                          <div class="media">
+                            <div class="media-left d-flex mr-3">
+                              <img src="/assets/Images/slider-image-3.jpg" alt="">										
+                            </div>
+                            <div class="media-body">
+                              <div class="overview">
+                                <div class="name"><b>Arnold Hookins</b></div>
+                                <div class="details">Photographer</div>
+                              </div>										
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                        <div class="col-md-6 ">
+                          <div class="testimonial-top">
+                          <div class="testimonial">
+                            <p>Not only was customer support very fast, but the design is very professional. Will definitely be looking for new products in the future from this author.</p>
+                           </div>
+                          <div class="media">
+                            <div class="media-left d-flex mr-3">
+                              <img src="/assets/Images/slider-image-4.jpg" alt="">										
+                            </div>
+                            <div class="media-body">
+                              <div class="overview">
+                                <div class="name"><b>Antonio Moreno</b></div>
+                                <div class="details">Fastion designer</div>
+                              </div>										
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      </div>			
+                    </div>
+                    <div class="carousel-item ">
+                      <div class="row row-flex">
+                        <div class="col-md-6 ">
+                          <div class="testimonial-top">
+                          <div class="testimonial">
+                            <p>The design is elegant. The customer support on this product is also amazing. I would highly recommend you to purchase templates from the Marketify team!</p>
+                          </div>
+                          <div class="media">
+                            <div class="media-left d-flex mr-3">
+                              <img src="/assets/Images/slider-image-5.jpg" alt="">										
+                            </div>
+                            <div class="media-body">
+                              <div class="overview">
+                                <div class="name"><b>Jecob Oramson</b></div>
+                                <div class="details">Designer</div>
+                              </div>										
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="col-md-6 ">
+                          <div class="testimonial-top">
+                          <div class="testimonial">
+                            <p>Not only was customer support very fast, but the design is very professional. Will definitely be looking for new products in the future from this author.</p>
+                          </div>
+                          <div class="media">
+                            <div class="media-left d-flex mr-3">
+                              <img src="/assets/Images/slider-image-1.jpg" alt="">										
+                            </div>
+                            <div class="media-body">
+                              <div class="overview">
+                                <div class="name"><b>Antonio Moreno</b></div>
+                                <div class="details">Web Developer</div>
+                              </div>										
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      </div>			
+                    </div>
+                  </div>
+                </div>
+      </div>
+     </div>
+    </div>
+     <div class="container d-block d-md-none">
+      <div class="row">
+       <div class="col-12">
+        <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="carousel">
+         <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="5" aria-label="Slide 6"></button>
+         </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           <div class="row">
+            <div class="col-12">
+             <div class="testimonial-top">
+              <div class="testimonial">
+               <p>The design is elegant. The customer support on this product is also amazing. I would highly recommend you to purchase templates from the Marketify team!</p>
+              </div>
+                <div class="media">
+                  <div class="media-left d-flex mr-3">
+                    <img src="/assets/Images/slider-image-1.jpg" alt="">										
+                  </div>
+                  <div class="media-body">
+                    <div class="overview">
+                      <div class="name"><b>Kerry Hudson</b></div>
+                      <div class="details">IBO. Corp</div>
+                    </div>										
+                            </div>
+                </div>
+                </div>
+            </div>
+            </div>			
+          </div>
+          <div class="carousel-item ">
+           <div class="row">
+             <div class="col-12">
+               <div class="testimonial-top">
+               <div class="testimonial">
+                 <p>Not only was customer support very fast, but the design is very professional. Will definitely be looking for new products in the future from this author.</p>
+               </div>
+               <div class="media">
+                 <div class="media-left d-flex mr-3">
+                   <img src="/assets/Images/slider-image-2.jpg" alt="">										
+                 </div>
+                 <div class="media-body">
+                   <div class="overview">
+                     <div class="name"><b>Albert Walke</b></div>
+                     <div class="details">Singer</div>
+                   </div>										
+                 </div>
+                          </div>
+                          </div>
+             </div>
+           </div>			
+          </div>
+          <div class="carousel-item ">
+            <div class="row">
+              <div class="col-12 ">
+                <div class="testimonial-top">
+                <div class="testimonial">
+                  <p>The design is elegant. The customer support on this product is also amazing. I would highly recommend you to purchase templates from the Marketify team!</p>
+                </div>
+                <div class="media">
+                  <div class="media-left d-flex mr-3">
+                    <img src="/assets/Images/slider-image-3.jpg" alt="">										
+                   </div>
+                  <div class="media-body">
+                    <div class="overview">
+                      <div class="name"><b>Arnold Hookins</b></div>
+                      <div class="details">Photographer</div>
+                    </div>										
+                  </div>
+                </div>
+               </div>
+             </div>
+            </div>			
+          </div>
+          <div class="carousel-item ">
+            <div class="row">
+              <div class="col-12 ">
+                <div class="testimonial-top">
+                  <div class="testimonial">
+                    <p>Not only was customer support very fast, but the design is very professional. Will definitely be looking for new products in the future from this author.</p>
+                    </div>
+                  <div class="media">
+                     <div class="media-left d-flex mr-3">
+                       <img src="/assets/Images/slider-image-4.jpg" alt="">										
+                    </div>
+                    <div class="media-body">
+                      <div class="overview">
+                        <div class="name"><b>Antonio Moreno</b></div>
+                        <div class="details">Fastion designer</div>
+                      </div>										
+                    </div>
+                   </div>
+                </div>
+              </div>
+            </div>			
+          </div>
+          <div class="carousel-item ">
+            <div class="row">
+              <div class="col-12 ">
+                <div class="testimonial-top">
+                  <div class="testimonial">
+                     <p>The design is elegant. The customer support on this product is also amazing. I would highly recommend you to purchase templates from the Marketify team!</p>
+                  </div>
+                  <div class="media">
+                    <div class="media-left d-flex mr-3">
+                      <img src="/assets/Images/slider-image-3.jpg" alt="">										
+                    </div>
+                    <div class="media-body">
+                      <div class="overview">
+                        <div class="name"><b>Arnold Hookins</b></div>
+                        <div class="details">Photographer</div>
+                      </div>										
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>			
+          </div>
+          <div class="carousel-item ">
+           <div class="row">
+             <div class="col-12 ">
+               <div class="testimonial-top">
+                 <div class="testimonial">
+                   <p>The design is elegant. The customer support on this product is also amazing. I would highly recommend you to purchase templates from the Marketify team!</p>
+                 </div>
+                 <div class="media">
+                   <div class="media-left d-flex mr-3">
+                     <img src="/assets/Images/slider-image-5.jpg" alt="">										
+                   </div>
+                   <div class="media-body">
+                     <div class="overview">
+                       <div class="name"><b>Jecob Oramson</b></div>
+                       <div class="details">Designer</div>
+                     </div>										
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>			
+          </div>
+        </div>
+        </div>
+       </div>
+      </div>
+    </div>
+  </div>
+ </div>
+</section>
+    <!-- Testimonials Section End Here -->
+
+    <!-- Blog Section Start Here -->
+
+<section  id="section6" class="section">
+  <div class="container px-6 ">
+    <div class="resume-body my-bg mb-7">
+     <div class="row">
+       <div class="col-lg-6">
+         <div class="resume-details">
+           <h3>Blog</h3>
+           <h1>Latest tips, tricks & Updates</h1>
+         </div>
+       </div>
+       <div class="col-lg-6 ">
+       </div>
+     </div>
+     <div class="blog-section">
+     <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card-top">
+            <div class="card-1 " >
+          <div class="img-div position-relative">
+          <img src="assets/Images/blog-1.jpg" class="card-img-top img-fluid banner-grid-image-2" >
+          </div>
+          <div class="card-body d-flex flex-column  ">
+            <a href="" class="card-title-1">Web Design</a>
+            <a href="" class="card-title-2 text-decoration-none">How to create a website using WordPress</a>
+          </div>
+        </div>
+        </div>
+
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card-top">
+            <div class="card-1 " >
+          <div class="img-div position-relative">
+          <img src="assets/Images/blog-2.jpg" class="card-img-top img-fluid banner-grid-image-2" >
+          </div>
+          <div class="card-body d-flex flex-column  ">
+            <a href="" class="card-title-1">Branding</a>
+            <a href="" class="card-title-2 text-decoration-none">Angular team streamlines<br> requests</a>
+          </div>
+        </div>
+        </div>
+
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card-top">
+            <div class="card-1 " >
+          <div class="img-div position-relative">
+          <img src="assets/Images/blog-3.jpg" class="card-img-top img-fluid banner-grid-image-2" >
+          </div>
+          <div class="card-body d-flex flex-column  ">
+            <a href="" class="card-title-1">UI Design</a>
+            <a href="" class="card-title-2 text-decoration-none">How to handle errors in React Javascript</a>
+          </div>
+        </div>
+        </div>
+
+      </div>
+     </div>
+    </div>
+    </div>
+  </div>
+</section>  
+    <!-- Blog Section End Here -->
+
+    <!-- Contact Section Start Here -->
+
+<section  id="section7" class="section">
+  <div class="container px-6 ">
+    <div class="resume-body my-bg mb-7">
+     <div class="row ">
+       <div class="col-lg-6">
+         <div class="resume-details">
+           <h3>Contact Me</h3>
+           <h1>Contact me to get your work done</h1>
+         </div>
+       </div>
+       <div class="col-lg-6 ">
+       </div>
+     </div>
+     <div class="blog-section">
+     <div class="row">
+      <div class="col-lg-4 col-sm-12 ">
+        <div class="col-12 mb-4   ">
+          <div class="d-flex align-items-center">
+          <div class="icon">
+            <i class="fa fa-mobile" aria-hidden="true"></i>
+          </div>
+          <div class="icon-text ps-3 ">
+            <h4>Call Me</h4>
+            <p>+123 456 7890</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 mb-4   ">
+        <div class="d-flex align-items-center">
+        <div class="icon">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+        </div>
+        <div class="icon-text ps-3 ">
+          <h4>Email Us</h4>
+          <p>hello@iknow.com</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 mb-4   ">
+      <div class="d-flex align-items-center">
+      <div class="icon">
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+      </div>
+      <div class="icon-text ps-3 ">
+        <h4>Address</h4>
+        <p>20, Bardeshi, Amin Bazar</p>
+      </div>
+    </div>
+  </div>
+      </div>
+      <div class="col-lg-8 col-sm-12">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <div class="form-outline form-white mb-2">
+            <input type="email" id="search-bar" class="form-control " placeholder="Your Name">
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="form-outline form-white mb-2">
+            <input type="email" id="search-bar" class="form-control " placeholder="Your Email">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <div class="form-outline form-white mb-2">
+            <input type="email" id="search-bar" class="form-control " placeholder="Your Phone">
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="form-outline form-white mb-2">
+            <input type="email" id="search-bar" class="form-control " placeholder="Your Subject">
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-outline form-white mb-2">
+
+          <textarea id="message" placeholder="Your message here" class="form-control "></textarea>
+        </div>
+      </div>
+      </div>
+      <div class=" ">
+      <button class="btn btn-first mt-3" type="submit">Submit Now</button>
+      </div>
+
+      </div>
+      </div> 
+    </div> 
+  </div>
+  </div>  
+</section> 
+    <!-- Contact Section End Here -->
+</main>
+
+    <!-- Footer Start here -->
+
+<footer id="footer">
+  <div class="container px-6 ">
+    <div class="row  ">
+      <div class="col-lg-6 mb-3 d-flex justify-content-center justify-content-lg-start ">
+        <span>Designed with love ©   <a href="" class="text-decoration-none"><b> Marketify</b></a> </span>
+      </div>
+      <div class="col-lg-6   d-flex justify-content-lg-end justify-content-center">
+      <ul class="list-unstyled d-flex justify-content-lg-end justify-content-center ">
+        <li><a href="#" class="pe-md-5">Terms &amp; Condition</a></li>
+        <li><a href="#" class="pe-md-5">Privacy Policy</a></li>
+        <li><a href="#">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+    <!-- Javascript Start Here -->
+<script>
+    var previousSection = null;
+    var navItems = document.getElementsByClassName("list-item");
+
+    function toggleSection(sectionNumber) {
+      var section = document.getElementById("section" + sectionNumber);
+      var footer = document.getElementById("footer");
+
+      if (section.style.display === "none") {
+        section.style.display = "block";
+        if (previousSection !== null) {
+          previousSection.style.display = "none";
+        }
+        footer.style.display = "block";
+        if (previousSection !== null) {
+          previousSection.classList.remove("active-class");
+        }
+        previousSection = section;
+      } else {
+        section.style.display = "none";
+        footer.style.display = "none";
+      }
+
+      // Highlight the active navigation item
+      for (var i = 0; i < navItems.length; i++) {
+        if (i + 1 === sectionNumber) {
+          navItems[i].classList.add("active-class");
+        } else {
+          navItems[i].classList.remove("active-class");
+        }
+      }
+
+      // Scroll to the opened section
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+</script>
+    <!-- Javascript End Here -->
+
+ <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+ <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+ integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+ crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+ integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+ crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+ integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+ crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+ crossorigin="anonymous"></script>
+ </body>
+ </html>
